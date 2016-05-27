@@ -38,6 +38,7 @@ controller.hears(['hello', 'hi', 'mok'], ['direct_message'], function (bot, mess
   bot.reply(message, 'Hello.')
   bot.reply(message, 'It\'s nice to talk to you directly.')
   bot.reply(message, 'Nta rak Mrid')
+  bot.reply(message, 'Wa rak mrid bzaf')
 })
 
 controller.hears('.*', ['mention'], function (bot, message) {
