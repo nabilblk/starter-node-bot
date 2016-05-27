@@ -34,6 +34,9 @@ controller.hears(['hello', 'hi'], ['direct_mention'], function (bot, message) {
   bot.reply(message, 'Hello.')
 })
 
+controller.hears(['Mok'], ['direct_mention'], function (bot, message) {
+  bot.reply(message, 'Khaltek')
+})
 
 controller.hears(['hello', 'hi'], ['direct_message'], function (bot, message) {
   bot.reply(message, 'Hello.')
