@@ -34,13 +34,10 @@ controller.hears(['hello', 'hi'], ['direct_mention'], function (bot, message) {
   bot.reply(message, 'Hello.')
 })
 
-controller.hears(['Mok'], ['direct_mention'], function (bot, message) {
-  bot.reply(message, 'Khaltek')
-})
-
-controller.hears(['hello', 'hi'], ['direct_message'], function (bot, message) {
+controller.hears(['hello', 'hi', 'mok'], ['direct_message'], function (bot, message) {
   bot.reply(message, 'Hello.')
   bot.reply(message, 'It\'s nice to talk to you directly.')
+  bot.reply(message, 'Nta rak Mrid')
 })
 
 controller.hears('.*', ['mention'], function (bot, message) {
