@@ -39,7 +39,7 @@ controller.hears(['hello', 'hi'], ['direct_message'], function (bot, message) {
   bot.reply(message, 'It\'s nice to talk to you directly.')
 })
 
-controller.hears(['mimdal'], ['direct_message'], function (bot, message) {
+controller.hears(['mimdal','Mimdal'], ['direct_message'], function (bot, message) {
   bot.reply(message, 'W kharajni mn la misere')
 })
 
