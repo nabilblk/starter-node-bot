@@ -6,8 +6,6 @@ config:
     friendly_name: My WIT Token
     info: My WIT Token
     type: secret
-    default: the default value
-
 
 #background: resources/background.png
 #config:
