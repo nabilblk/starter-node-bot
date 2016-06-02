@@ -2,15 +2,19 @@ name: Ali The Robot
 description: The OCTO MAROC COMPAGNION
 avatar: resources/avatar.png
 config:
-  - name: OPTION
-    friendly_name: Some Unnecessary Option
-    info: This is an unnecessary option
-    default: the default value
-  - name: SECRET
-    friendly_name: Shhhh
-    info: This is an secret option
-    type: secret
-    default: not secret though
+- name: AWS_REGION
+  friendly_name: AWS Region
+  info: Region of deployment (e.g. us-eas-1)
+  default: us-east-1
+  type: text
+- name: AWS_ACCESS_KEY
+  friendly_name: AWS Access Key
+  info: Amazon Web Services access key
+  type: secret
+- name: AWS_SECRET_KEY
+  friendly_name: AWS Secret Key
+  info: Amazon Web Services secret key
+  type: secret
 
 #background: resources/background.png
 
